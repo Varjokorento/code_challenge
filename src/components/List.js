@@ -16,10 +16,7 @@ const useStyles = makeStyles({
       minWidth: 650,
     },
   });
-  
-  function createData(name, calories, fat, carbs, protein) {
-    return { name, calories, fat, carbs, protein };
-  }
+
   
 
 export const List = (props) => {
@@ -33,7 +30,7 @@ export const List = (props) => {
          <TableHead>
             <TableRow>
                <TableCell>Player name</TableCell>
-              <TableCell>K-Index</TableCell>
+              <TableCell>Lifetime Home Runs</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
